@@ -1,0 +1,147 @@
+1. Hacer una función que pida la edad y si es mayor de 18 años indica que ya puede conducir.
+*/
+Ejemplo:
+car edad = 21;
+validarEdad(edad);
+//=> puede conducir
+
+/*
+
+
+2. Listar los siguientes datos y pedir una nota(número).
+Mostrar la calificación según la nota:
+
+
+Ejemplo:
+
+var nota = 7;
+calificar(nota);
+
+
+3. Mostrar en corchete la nota del rango enviado y en mayuscula
+0-3: Muy deficiente
+3-5: Insuficiente
+5-6: Suficiente
+6-7: [BIEN]  
+7-9: Notable
+9-10: Sobresaliente
+*/
+
+
+/*
+4. Crear una función que al enviar un valor lo calcule x 2
+
+Ejemplo:
+calcularPorDos(2) // => 4
+
+
+
+5. Dado el siguiente array multi dimensional, mostrar por consola "hola mundo desde javascript"
+*/
+
+const a = [
+  "mundo",
+  [
+    ["hola"]
+  ],
+  "desde",
+  ["javascript"]
+];
+
+/*
+
+
+const nombres = ["karen", "nicky", "michael", "frank"];
+
+6. Crear una función que permita agregar un nuevo nombre al final del array
+y al principio del array.
+*/
+
+Ejemplo:
+agregarNombre("foo") // => ["foo", "karen", "nicky", "michael", "frank", "foo"];
+
+
+/*
+
+7. const listaDeNombres = ["karen", "nicky", "michael", "frank"];
+Eliminar el primer y ultimo nombre ò elemento del array;
+*/
+
+Ejemplo:
+eliminarPrimerMasUltimoNombre() //=> ["nicky", "michael"];
+
+
+
+8. Crear una lista de números mediante el ciclo "for" desde el 10 hasta el 15
+*/
+
+Ejemplo:
+10
+11
+12
+13
+14
+15
+
+
+/*
+//////////////////////////////////////////////////////////////////////
+const comidas = ["ensalada", "pasta", "sopa", "pizza", "papas fritas"];
+
+9. Iterar la siguiente lista mediante un ciclo / loop "for", se va a emitir
+antes de mostrar la lista un mensaje en upper LISTA DE COMIDAS, adicional
+la salida de la lista va a poseer un diseño, el cual debe cumpliar al
+momento de mostrar la salida.
+*/
+
+Ejemplo:
+-----------------------------
+LISTA DE COMIDAS
+-----------------------------
+[1] - ensalada
+[2] - pasta
+[3] - sopa
+[4] - pizza
+[5] - papas fritas
+-----------------------------
+
+/*
+10. Con ciclos "for" listar unos productos con sus detalles, el cual
+se debe ver en pantalla con el diseño dado del ejemplo.
+adicional, debe crear una función donde se reciba el nombre y país
+del usuario que solicita la lista de productos
+
+const candidatos = [
+  ["tv", 1000, "pantalla plana de 50 pulgadas"],
+  ["smartphone", 150, "samsung con bluetooth"],
+  ["tablet", 200, "hitachi de 14 pulgadas"],
+  ["keyboard", 50, "con teclas led de 10 colores"]
+];
+
+
+Ejemplo:
+solicitudDeProductos("karen", "bananero");
+
+Salida: =>  la salida debe ser como se muestra en la parte inferior
+se recomienda emplear template string el uso de estas comillas:
+ ``
+`${variable}`  
+para una mayor agilidad.
+*/
+--------------------------------------------------
+PRODUCTOS LISTADOS: 4
+--------------------------------------------------
+[1] - TV / PRECIO: $100 usd
+    - DETALLE: pantalla plana de 50 pulgadas
+---
+[2] - SMARTPHONE / PRECIO: $150 usd
+    - DETALLE: samsung con bluetooth
+---
+[3] - TABLET / PRECIO: $200 usd
+    - DETALLE: hitachi de 14 pulgadas
+---
+[4] - KEYBOARD / PRECIO: $50 usd  
+    - DETALLE: con teclas led de 10 colores        
+---------------------------------------------------
+NOMBRE DEL USUARIO: karen
+PAIS: bananero
