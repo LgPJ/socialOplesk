@@ -1,0 +1,23 @@
+{
+  "name": "javascriptso",
+  "version": "1.0.0",
+  "description": "HTML + CSS + JavaScript (ReactJs) + Python (Django)",
+  "main": "Ejercicio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LgPJ/socialOplesk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LgPJ/socialOplesk/issues"
+  },
+  "homepage": "https://github.com/LgPJ/socialOplesk#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
